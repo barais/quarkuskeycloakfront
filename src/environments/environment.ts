@@ -3,7 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+ /* keycloak: {
+    realm: 'quarkus',
+    'auth-server-url': 'http://localhost:8180/auth',
+    'ssl-required': 'external',
+    resource: 'backend-service',
+    'verify-token-audience': true,
+    credentials: {
+      secret: 'secret'
+    },
+    'confidential-port': 0,
+    'policy-enforcer': {}
+  }*/
 };
 
 /*
@@ -14,3 +26,5 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+

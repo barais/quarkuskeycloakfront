@@ -1,0 +1,12 @@
+{
+  "realm": "quarkus",
+  "auth-server-url": "http://localhost:8180/auth",
+  "ssl-required": "external",
+  "resource": "backend-service",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "secret"
+  },
+  "confidential-port": 0,
+  "policy-enforcer": {}
+}
